@@ -2,12 +2,6 @@
   margin: 0px;
 }
 
-*:before,
-*:after {
-  content: "";
-  position: absolute;
-}
-
 .toggle-wrapper {
   background: #74b9ff;
   height: 100vh;
@@ -40,6 +34,8 @@ input {
 }
 
 .toggle-item:before {
+  content: "";
+  position: absolute;
   display: block;
   transition: all 0.2s ease;
   width: 2.3em;
@@ -123,6 +119,8 @@ input {
   transition: 0.1s ease;
 }
 .mouth:before {
+  content: "";
+  position: absolute;
   width: 0px;
   height: 0px;
   background: #ec788d;
